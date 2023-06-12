@@ -1,14 +1,14 @@
 
 const NavBar = () => {
   const navOptions = <>
-  <li><a>Item 1</a></li>
+  <li><a>Blog</a></li>
         <li>
-          <a>Parent</a>
+          <a>Google</a>
           <ul className="p-2">
             
           </ul>
         </li>
-        <li><a>Item 3</a></li>
+        <li><a>Product</a></li>
   </>
   return (
     <>
@@ -30,7 +30,7 @@ const NavBar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Button</a>
+    <a className="btn">Shop Now</a>
   </div>
 </div>
     </>
